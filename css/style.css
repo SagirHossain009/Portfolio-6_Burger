@@ -1,0 +1,631 @@
+body *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+a, a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*banner section start*/
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../image/b-banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*banner section end*/
+
+/*header section start from here*/
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header{
+	padding: 26px 0px;
+}
+
+.menue{
+	text-align: right;
+}
+
+.nav-menue{
+	padding: 16px 0px;
+}
+
+.nav-menue ul li{
+	list-style: none;
+	display: inline-block; 
+	margin-left: 56px;  
+}
+
+.nav-menue ul li a{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #3d2514;
+}
+
+.h-contact span{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 16px;
+	vertical-align: middle;
+}
+
+.h-contact img{
+	vertical-align: middle;
+}
+/*header section end from here*/
+
+/*banner-text section start from here*/
+
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.b-left{
+	margin-top: -476px;
+	flex-basis: 50%;
+}
+
+.b-right{
+	margin-top: -490px;
+	flex-basis: 50%;
+}
+
+.b-left p{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    Color: #3d2514;
+    border: 4px dashed #3d2514;
+    display: inline-block;
+    padding: 8px 14px;
+}
+
+.b-left h1{
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    Color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #ede8e8;
+    letter-spacing: 3px;
+}
+
+.b-left h2{
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 90px;
+    Color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #ede8e8;
+    letter-spacing: 5px;
+}
+
+
+.b-right img{
+	margin-top: -121px;
+    margin-left: 54px;
+    max-width: 100%;
+    height: auto;
+}
+
+.p-tag{
+	position: absolute;
+    margin-top: -295px;
+    margin-left: 680px;
+}
+
+/*banner-text section end from here*/
+
+/*Services section start from here*/
+.services{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.serve-item{
+	display: flex;
+}
+
+.serve-item img{
+	max-width: 100%;
+	height: auto;
+}
+
+.s-left .s-right{
+	flex-basis: 50%;
+}
+
+.s-content{
+	margin: 15px;
+	position: relative;
+}
+
+.img-text{
+	position: absolute;
+    top: 5px;
+    left: 25px;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.img-text h3{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.img-text h2{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.s-line{
+	width: 185px;
+    line-height: 40px;
+}
+
+.second{
+	margin-bottom: 29px;
+}
+/*Services section end from here*/
+/*Burger gallery section start from here*/
+
+.burger-gallery{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.gallery-title{
+	text-align: center;
+}
+
+.alert{
+	font-family: 'Bebas Neue', cursive;
+	background: #ffc045;
+	color: #3d2514;
+	text-transform: uppercase;
+	padding: 6px 14px;
+	font-size: 25px;
+}
+
+.gallery-title h2{
+	margin-top: 30px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+
+.gallery-title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 0px 58px;
+}
+
+.gallery-items{
+	display: flex;
+	margin: 32px;
+}
+
+.item{
+	text-align: center;
+}
+
+.item img{
+	max-width: 100%;
+	height: auto;
+}
+
+.item h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+.item p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 0px 58px;
+}
+
+.item button{
+	font-family: 'Alfa Slab One', cursive;
+	background: #bf2222;
+    font-size: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+}
+
+.item-2{
+	text-align: center;
+	margin-top: -68px;
+}
+
+.item-2 img{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.item-2 h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+.item-2 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 0px 58px;
+}
+
+.item-2 button{
+	font-family: 'Alfa Slab One', cursive;
+	background: #bf2222;
+    font-size: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+}
+
+.item-3{
+	text-align: center;
+	margin-top: 14px;
+}
+
+.item-3 img{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.item-3 h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+.item-3 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin: 0px 58px;
+}
+
+.item-3 button{
+	font-family: 'Alfa Slab One', cursive;
+	background: #bf2222;
+    font-size: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+}
+
+/*burger gallery section end from here*/
+
+/*slider section start from here*/
+
+.slider-section{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.slider-content{
+	display: flex;
+	padding: 30px;
+	box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
+}
+
+.slider-left, .slider-right{
+	flex-basis: 50%;
+}
+
+.slider-right{
+	margin-left: 30px;
+}
+
+.slider-right img{
+	max-width: 100%;
+	height: auto;
+}
+
+.slider-left h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+.slider-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	color: #3d2514;
+	text-transform: uppercase;
+	margin: 16px 0;
+	letter-spacing: 3px;
+}
+
+.slider-left p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	color: #3d2514;
+	text-align: justify;
+}
+
+/*slider section end from here*/
+
+/*Reservation section start from here*/
+
+.reservation{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.order-book h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #3d2514;
+	text-align: center;
+}
+
+.order-book h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #3d2514;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+.order-book ul li{
+	list-style: none;
+	display: block;
+}
+
+.r-right{
+	    margin-left: -160px;
+}
+
+.r-left, .r-right{
+	display: inline-block;
+}
+
+.r-left li{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #7e7e7e;
+	border: 0.5px solid black;
+    width: 365px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 190px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+.r-right li{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #7e7e7e;
+	border: 0.5px solid black;
+    width: 365px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 190px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+.tab li{
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 21px;
+	text-transform: uppercase;
+	color: white;
+	box-sizing: 20px;
+	background: #bf2222;
+	letter-spacing: 2px;
+	border: none;
+}
+
+.order-book{
+	position: relative;
+}
+
+.l-pic .img-1{
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	margin-top: -490px;
+    margin-left: -105px;
+}
+
+.l-pic .img-2{
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	margin-top: -280px;
+    margin-left: 5px;
+}
+
+.r-pic img{
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	margin-top: -290px;
+    margin-left: 928px;
+}
+
+/*Reservation section end  from here*/
+
+/*footer section start from here*/
+
+.footer{
+	width: 100%;
+	padding: 200px 0;
+	max-width: 100%;
+	height: auto;
+	align-items: center;
+}
+
+.f-pic img{
+	margin-left: -79px;
+	margin-top: -70px;
+	position: relative;
+}
+
+.f-left img{
+	position: absolute;
+	margin-top: -500px;
+}
+
+.f-left p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    position: absolute;
+    margin-top: -340px;
+    color: white;
+    width: 430px;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.f-left h3{
+	position: absolute;
+    margin-top: -65px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-left: 52px;
+    letter-spacing: 2px;
+    font-style: normals;
+}
+
+.copyright h3{
+	margin-top: -67px;
+    margin-left: 22px;
+    font-style: normals;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.f-right{
+	display: block;
+}
+
+.location img{
+	position: absolute;
+    margin-left: 700px;
+    margin-top: -293px;
+    max-width: 100%;
+    height: auto;
+}
+
+.location h2{
+	position: absolute;
+    color: white;
+    margin-left: 762px;
+    margin-top: -290px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+
+.email img{
+	position: absolute;
+    margin-left: 700px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -232px;
+}
+
+.email h2{
+	position: absolute;
+    color: white;
+    margin-left: 762px;
+    margin-top: -237px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+
+.social-icon{
+	position: absolute;
+    margin-left: 1020px;
+    margin-top: -110px;
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+}
+
+.social-icon ul li a{
+	margin-left: 10px;
+	background: #ffffff;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 100%;
+	border: 2px solid white;
+	align-items: center;
+	color: black;
+}
+
+/*footer section start from here*/
